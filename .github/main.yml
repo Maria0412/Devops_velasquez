@@ -21,7 +21,7 @@ jobs:
         run: npm install
 
       - name: Ejecutar pruebas
-        run: node test.js
+        run: node test
 
       - name: Construir Docker
         run: docker build -t mi-app .
